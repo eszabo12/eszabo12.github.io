@@ -99,9 +99,9 @@ function Projects() {
               isBlog={false}
               title="Twitch Chat Sentiment Analysis"
               description="Developed for HackSC a chrome extension that scrapes Twitch chat data and visualizes sentiment in real time"
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/likhity/twitch-stream-chat-analyzer"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            skills="JavaScript, CSS, HTML, Flask, Socket.io, numpy, NLP"
+            skills="JavaScript, CSS, HTML, Flask, Socket.io, numpy"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -137,7 +137,7 @@ function Projects() {
               description="An iOS app that displays objects for rental with realtime Firebase database queries and Stripe checkout screen"
               ghLink="https://github.com/eszabo12/Mobile_iOS_Bird-esque_Application"
               // demoLink="https://plant49-ai.herokuapp.com/"
-              skills="Swift, XCode, Firebase, Heroku, Stripe"
+              skills="Swift, XCode, Firebase, Heroku, Stripe, Cocoapods"
             />
           </Col>
           
