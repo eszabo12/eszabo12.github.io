@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import terrortops from "https://drive.google.com/file/d/1RZmoWF42S_JUH2z4rrN1LhK59-Am7jwv/view?usp=sharing";
-import editor from "../../Assets/Projects/codeEditor.png";
+import terrortops from "../../Assets/terrortops.jpg";
+import pyribs from "../../Assets/lunar_lander.gif";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -50,7 +50,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={pyribs}
               isBlog={false}
               title="PyRibs"
               description="Main contributor to PyRibs, an open-source Python library for exploring the latent space of machine learning models"

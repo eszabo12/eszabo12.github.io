@@ -24,9 +24,11 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
+            {/* <Tilt options={{ max : 2, perspective:    2,}}> */}
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+            {/* </Tilt> */}
             <p className="home-about-body">
              I'm a senior at <a href="https://www.w3schools.com/Css/tryit.asp?filename=trycss_link">USC</a> studying Computer Science.
              <br />
@@ -59,7 +61,7 @@ My interests are building applications to increase efficiency of human life, and
               </i>
               <br /> 
               <br />
-              In my free time, I create projects you can check out <a href="url">here</a>.
+              In my free time, I create projects you can check out <a href="/project">here</a>.
               I've built a <a href="url">VR App,</a> {" "}
               <a href="url">Web Extension,</a> {" and "}
               <a href="url">Smart Mirror,</a>.
@@ -67,7 +69,7 @@ My interests are building applications to increase efficiency of human life, and
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="purp_avatar" style={{ maxHeight: "300px" }}/>
+              <img src={myImg} className="img-fluid" alt="purp_avatar" style={{ maxHeight: "800px" }}/>
             </Tilt>
           </Col>
         </Row>
