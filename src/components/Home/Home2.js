@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.png";
+import myImg from "../../Assets/Avatars/webResult.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -30,35 +30,31 @@ function Home2() {
             </h1>
             {/* </Tilt> */}
             <p className="home-about-body">
-             I'm a senior at <a href="https://www.w3schools.com/Css/tryit.asp?filename=trycss_link">USC</a> studying Computer Science.
+             I'm a senior at <a href="https://viterbischool.usc.edu/">USC</a> studying Computer Science.
              <br />
              <br />
               Currently I'm researching &nbsp;
                 <b className="purple">Robotic Navigation in Continuous Environments</b> 
-                at {" "}<a href="url">GLAMOR Lab</a>{" "}, and I've also worked on{" "}<b className="purple">Quality Diversity</b> at <a href="url">ICAROS Lab.</a> 
+                {" "}at {" "}<a href="https://glamor-usc.github.io/">GLAMOR Lab</a>{" "}, and I've also worked on{" "}<b className="purple">Quality Diversity</b> at <a href="http://icaros.usc.edu/">ICAROS Lab.</a> 
                 <br />
               <br />
               I have worked at Microsoft and NASA JPL, among others.
 My interests are building applications to increase efficiency of human life, and intelligent systems. 
-  My experiences lie in &nbsp;
-              <i>
+  My experiences lie in{" "}
                 <b className="purple">Machine Learning & Perception</b> and
                 also in{" "}
                 <b className="purple">
                   Backend Systems, IoT,
                 </b>
                 {" "}but always{" "}
-                <b className="purple">Whatever Stack Fits.</b>
-              </i>
+                <b className="purple">Whatever Fits.</b>
               <br />
               <br />I've gained fluency in
-              <i>
-                <b className="purple"> C++</b>{" "}and{" "}<b className="purple"> Python</b>, and have dabbled with
+                <b className="purple"> Python</b>{" "}and{" "}<b className="purple"> C++</b>, and fammiliarity with
                 <b className="purple"> Javascript,</b>
                 <b className="purple"> Swift,</b>
                 <b className="purple"> C#,</b>{" "}and{" "}
                 <b className="purple"> SQL</b>.
-              </i>
               <br /> 
               <br />
               In my free time, I create projects you can check out <a href="/project">here</a>.
@@ -69,20 +65,20 @@ My interests are building applications to increase efficiency of human life, and
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="purp_avatar" style={{ maxHeight: "800px" }}/>
+              <img src={myImg} className="img-fluid" alt="purp_avatar" style={{ paddingTop: 0, maxHeight: "800px" }}/>
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            {/* <p>
+              Feel free to connect with me
+            </p> */}
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/eszabo12"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -92,32 +88,12 @@ My interests are building applications to increase efficiency of human life, and
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/elle-szabo/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
