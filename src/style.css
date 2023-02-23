@@ -17,6 +17,16 @@ html {
 .purple {
   color: var(--imp-text-color) !important;
 }
+
+/*FANCY SHADOW*/
+/* .heading, .about-me{
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+    0 0 0.125em hsla(320, 100%, 60%, 0.5),
+    -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
+    0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25);
+} */
 a {
   outline: none;
   text-decoration: none;
@@ -35,6 +45,10 @@ a:visited {
 a:focus {
   border-bottom: 1px solid;
   background: #bae498;
+}
+
+b:hover {
+  background: #cdfeaa;
 }
 
 a:hover {
@@ -69,6 +83,7 @@ button:focus {
 
 #preloader-none {
   opacity: 0;
+  color: #7843E6;
 }
 
 #no-scroll {
@@ -184,8 +199,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 4em !important;
+  width: 4em !important;
 }
 
 .navbar-nav .nav-link {
@@ -243,6 +258,7 @@ button:focus {
   animation-iteration-count: infinite; /* Never stop waving :) */
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
+
 }
 
 @keyframes wave-animation {
@@ -296,7 +312,7 @@ button:focus {
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
-  text-align: left;
+  /* text-align: left; */
 }
 
 .heading {
@@ -315,19 +331,19 @@ button:focus {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #7843E6 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #7843E6 !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 700px) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: absolute !important;
+    position: relative !important;
   }
   .Typewriter__cursor {
     display: none !important;
@@ -335,7 +351,7 @@ button:focus {
 }
 
 .myAvtar {
-  justify-content: center !important;
+  /* justify-content: center !important; */
   padding-top: 5em !important;
   max-width: 40%;
 }
@@ -346,7 +362,6 @@ button:focus {
     padding-bottom: 2em !important;
   }
 } */
-
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
@@ -538,7 +553,7 @@ button:focus {
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
-  max-height: 400px;
+  /* max-height: 400px; */
   width: auto;
 }
 .card-img{

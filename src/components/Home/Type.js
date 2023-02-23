@@ -9,8 +9,7 @@ function Type() {
           "Software Engineer",
           "Bug Fixer",
           "Stackoverflow Searcher",
-          "Server deployer",
-          "Researcher",
+          // "Researcher",
           ""
 
           // "Github Cloner",

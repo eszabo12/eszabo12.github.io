@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import name from "../../Assets/Home/name (1).png"
 
 function Home() {
   return (
@@ -13,19 +14,20 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={40} className="home-header">
-              <h1 style={{ paddingBottom: 15 , textAlign: "center"}} className="heading">
+              <h1 style={{ paddingBottom: 15 , textAlign: "center", position: "relative"}} className="heading">
                 Hi there!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
-              <h1 style={{ paddingBottom: 15 , textAlign: "center"}}  className="heading-name">
-                I'M
-                <strong  style={{ paddingBottom: 15 , textAlign: "center"}}  className="main-name"> ELLE SZABO</strong>
+              <h1 style={{ paddingBottom: 30 , textAlign: "center"}}  className="heading-name">
+                I'M{" "}
+                <img src={name}></img>
+                {/* <strong  style={{ paddingBottom: 15 , textAlign: "center"}}  className="main-name"> ELLE SZABO</strong> */}
               </h1>
 
-              <div style={{ textAlign: "center" }}>
+              <div style={{ textAlign: "center", position: "relative", paddingLeft: 50 }}>
                 <Type />
               </div>
             </Col>

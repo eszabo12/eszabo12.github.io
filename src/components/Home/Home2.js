@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Avatars/transparent_web.png";
+import myImg from "../../Assets/Avatars/avatar_circle.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -23,12 +23,17 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
+        <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="purp_avatar" style={{paddingRight: 20, maxHeight: "800px" }}/>
+            </Tilt>
+          </Col>
           <Col md={8} className="home-about-description">
-            {/* <Tilt options={{ max : 2, perspective:    2,}}> */}
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            <Tilt >
+            <h1 style={{ fontSize: "2.6em" }} className="about-me">
+              ABOUT <span className="purple"> ME </span>
             </h1>
-            {/* </Tilt> */}
+            </Tilt>
             <p className="home-about-body">
              I'm a senior at <a href="https://viterbischool.usc.edu/">USC</a> studying Computer Science.
              <br />
@@ -50,7 +55,7 @@ My interests are building applications to increase efficiency of human life, and
                 <b className="purple">Whatever Fits.</b>
               <br />
               <br />I've gained fluency in
-                <b className="purple"> Python</b>{" "}and{" "}<b className="purple"> C++</b>, and fammiliarity with
+                <b className="purple"> Python</b>{" "}and{" "}<b className="purple"> C++</b>, and familiarity with
                 <b className="purple"> Javascript,</b>
                 <b className="purple"> Swift,</b>
                 <b className="purple"> C#,</b>{" "}and{" "}
@@ -62,11 +67,6 @@ My interests are building applications to increase efficiency of human life, and
               <a href="url">Web Extension,</a> {" and "}
               <a href="url">Smart Mirror,</a>.
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="purp_avatar" style={{ paddingTop: 0, maxHeight: "800px" }}/>
-            </Tilt>
           </Col>
         </Row>
         <Row>
