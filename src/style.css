@@ -537,8 +537,12 @@ button:focus {
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
+  max-height: 400px;
+  width: auto;
 }
-
+.card-img{
+  
+}
 .blog-img {
   padding: 0px !important;
   opacity: 0.8 !important;

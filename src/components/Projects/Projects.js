@@ -5,9 +5,9 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import terrortops from "../../Assets/terrortops.jpg";
 import pyribs from "../../Assets/lunar_lander.gif";
-import chatify from "../../Assets/Projects/chatify.png";
+import pipeline from "../../Assets/capture.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import vex from "../../Assets/vex_robot.gif";
 import Tilt from "react-parallax-tilt";
 
 function Projects() {
@@ -26,24 +26,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={pipeline}
               isBlog={false}
               title="Image Capturing Pipeline"
               description="First open-source 3D image capturing pipeline for machine learning on Intel Realsense. Used by researchers ISAE-Supaero for ROBOTIS OpenManipulator computer vision project"
               skills="C/C++, Make, Boost, librealsense2"
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              ghLink="https://github.com/eszabo12/image_capturing_pipeline"
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={vex}
               isBlog={false}
               title="Autonomous Robot"
-              description="Programmed vision-based autonomous scoring using an optical sensor to place rings on the goals’ branches. Created data frame to capture RGB-D images and perform custom object recognition with YOLO5V"
-              skills="YOLO5V, "
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              description="Programmed vision-based autonomous scoring using an optical sensor to place rings on the goals’ branches. Created data frame to capture RGB-D images and perform custom object recognition"
+              skills="Python, YOLO5V, Roboflow, "
+              ghLink=""
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
