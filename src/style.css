@@ -18,15 +18,18 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.h1 {
+  font-size: 1.2em; 
+}
 /*FANCY SHADOW*/
-/* .heading, .about-me{
-  font-size: 3.5rem;
-  font-weight: 300;
-  text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+.home-header, .header-name{
+  /* font-size: 1.2em; */
+  /* font-weight: 300; */ 
+  /* text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
     0 0 0.125em hsla(320, 100%, 60%, 0.5),
     -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
-    0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25);
-} */
+    0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25); */
+}
 a {
   outline: none;
   text-decoration: none;
@@ -297,6 +300,10 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+  /* text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+    0 0 0.125em hsla(320, 100%, 60%, 0.5),
+    -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
+    0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25); */
 }
 
 .home-section {
@@ -318,11 +325,19 @@ button:focus {
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
+  text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+    0 0 0.125em hsla(320, 100%, 60%, 0.5),
+    -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
+    0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25);
 }
 
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
+  text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+  0 0 0.125em hsla(320, 100%, 60%, 0.5),
+  -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
+  0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25);
 }
 
 .main-name {
@@ -355,7 +370,12 @@ button:focus {
   padding-top: 5em !important;
   max-width: 40%;
 }
-
+.about-me {
+  text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+    0 0 0.125em hsla(320, 100%, 60%, 0.5),
+    -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
+    0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25);
+}
 /* @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
@@ -582,8 +602,11 @@ button:focus {
 }
 .project-heading {
   color: white !important;
-  font-size: 2.3em !important;
-  font-weight: 500 !important;
+  font-size: 2.6em;
+  text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+    0 0 0.125em hsla(320, 100%, 60%, 0.5),
+    -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
+    0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25);
   padding-top: 10px !important;
 }
 

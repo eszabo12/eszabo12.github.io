@@ -24,7 +24,7 @@ function Resume() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={resumeLink}
+            href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >

@@ -24,7 +24,7 @@ function Projects() {
         </h1>
         </Tilt>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on (that I can talk about).
+          Here are a few projects I've worked on (that I can show).
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         {/* <Col md={4} className="project-card">
@@ -35,7 +35,7 @@ function Projects() {
               descrption="Conducting CoRL-aimed research on machine learning for robotic navigation with natural language and vision inputs under Jesse Thomason"
               skills="Python, OpenAI Gym, Pytorch, conda, RL, habitat-sim"
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="/"      <--------Please include a demo link here 
             />
           </Col> */}
           <Col md={4} className="project-card">
@@ -56,7 +56,7 @@ function Projects() {
               description="Implemented an Encoder-Decoder model that takes in ALFRED instructions for an entire episode and predicts the sequence of corresponding, high-level actions and target objects"
               skills="matplotlib, torch, sklearn, numpy"
               ghLink="https://github.com/eszabo12/CSCI499_NaturalLanguageforInteractiveAI/tree/main/hw3"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="/"      <--------Please include a demo link here 
             />
           </Col> */}
           <Col md={4} className="project-card">
@@ -66,8 +66,8 @@ function Projects() {
               title="Autonomous Robot"
               description="Programmed vision-based autonomous scoring using an optical sensor to place rings on the goals’ branches. Created data frame to capture RGB-D images and perform custom object recognition"
               skills="Python, YOLO5V, Roboflow, C/C++"
-              ghLink=""
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLink="/projects"
+              demoLink="/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -77,7 +77,7 @@ function Projects() {
               title="PyRibs"
               description="Main contributor to PyRibs, an open-source Python library for exploring the latent space of machine learning models. Used by researchers globally"
               ghLink="https://github.com/icaros-usc/pyribs/graphs/contributors"
-              demoLink="https://editor.soumya-jit.tech/"              
+              demoLink="https://docs.pyribs.org/en/stable/tutorials/lunar_lander.html"              
               skills="Python, JAX, numba, numpy, OpenAI Gym"
             />
           </Col>
@@ -87,7 +87,7 @@ function Projects() {
               isBlog={false}
               title="Terrortops - BattleBots"
               description="Performed strength testing and assembled completely hand-crafted Battlebots robot. Competed in BattleBots World Championship VII as Alternate, rarely granted to non-experienced teams"
-              // ghLink=""
+              // ghLink="/projects"
               demoLink="https://battlebots.fandom.com/wiki/Terrortops"    //  <--------Please include a demo link here 
               skills="drilling, tapping, assembling, painting, wiring, testing"
             
@@ -124,7 +124,7 @@ function Projects() {
               description="Detected common street signs using Haar Cascade classifiers with 96% accuracy in Python, etc."
               skills=""
               // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="/"      <--------Please include a demo link here 
               skills=""
             />
           </Col>
@@ -149,7 +149,7 @@ function Projects() {
               description="Designed a smart mirror from the ground up that sends weather and news data via a Raspberry Pi"
               skills="Raspberry Pi, Python, Embedded Systems, Woodworking"
               // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="/"      <--------Please include a demo link here 
             />
           </Col>
           
