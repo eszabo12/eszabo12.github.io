@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/full_body.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -8,7 +8,16 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+/*
 
+Hi I'm Elle.
+I'm fluent in Python and C++, and have worked at Microsoft and NASA JPL, among others.
+My field of interests are building applications to increase efficiency of human life, and intelligent systems.
+
+I'm a researcher at ICAROS Lab USC, prefer smaller teams to large ones, and tabs to spaces.
+
+In my free time, I create projects you can check out here.
+*/
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -19,42 +28,46 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+             I'm a senior at <a href="https://www.w3schools.com/Css/tryit.asp?filename=trycss_link">USC</a> studying Computer Science.
+             <br />
+             <br />
+              Currently I'm researching &nbsp;
+                <b className="purple">Robotic Navigation in Continuous Environments</b> 
+                at {" "}<a href="url">GLAMOR Lab</a>{" "}, and I've also worked on{" "}<b className="purple">Quality Diversity</b> at <a href="url">ICAROS Lab.</a> 
+                <br />
               <br />
-              <br />I am fluent in classics like
+              I have worked at Microsoft and NASA JPL, among others.
+My interests are building applications to increase efficiency of human life, and intelligent systems. 
+  My experiences lie in &nbsp;
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Machine Learning & Perception</b> and
+                also in{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Backend Systems, IoT,
                 </b>
+                {" "}but always{" "}
+                <b className="purple">Whatever Stack Fits.</b>
               </i>
               <br />
+              <br />I've gained fluency in
+              <i>
+                <b className="purple"> C++</b>{" "}and{" "}<b className="purple"> Python</b>, and have dabbled with
+                <b className="purple"> Javascript,</b>
+                <b className="purple"> Swift,</b>
+                <b className="purple"> C#,</b>{" "}and{" "}
+                <b className="purple"> SQL</b>.
+              </i>
+              <br /> 
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              In my free time, I create projects you can check out <a href="url">here</a>.
+              I've built a <a href="url">VR App,</a> {" "}
+              <a href="url">Web Extension,</a> {" and "}
+              <a href="url">Smart Mirror,</a>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="purp_avatar" style={{ maxHeight: "300px" }}/>
             </Tilt>
           </Col>
         </Row>
