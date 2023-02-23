@@ -11,7 +11,10 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #FFFF;
+  --purple-text-color: #7843E6;
+  --blue-text-color: #00FFFF;
+
 }
 
 .purple {
@@ -21,53 +24,50 @@ html {
 .h1 {
   font-size: 1.2em; 
 }
-/*FANCY SHADOW*/
-.home-header, .header-name{
-  /* font-size: 1.2em; */
-  /* font-weight: 300; */ 
-  /* text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
-    0 0 0.125em hsla(320, 100%, 60%, 0.5),
-    -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
-    0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25); */
-}
+
 a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
+  color: var(--imp-text-color);
 }
 
 a:link {
-  color: #c770f0;
+  color: var(--imp-text-color) ;
+  font-weight: bold;
   /* border-bottom: 0.7px solid; */
 }
 
 a:visited {
-  color: #c770f0;
+  color: var(--imp-text-color) ;
 }
 
 a:focus {
   border-bottom: 1px solid;
-  background: #bae498;
+  background: var(--imp-text-color);
 }
 
 b:hover {
-  background: #cdfeaa;
+  background: rgba(0, 255, 255, 0.8); ;
 }
 
 a:hover {
   border-bottom: 1px solid;
-  background: #cdfeaa;
+  background: rgba(0, 255, 255, 0.8); ;
 }
 
 a:active {
-  background: #265301;
-  color: #c770f0;
+  background: var(--imp-text-color) ;
+  color: var(--imp-text-color) ;
 }
 
 button:focus {
   box-shadow: none !important;
 }
 
+.c {
+  font-weight: bold !important;
+}
 /* --------- */
 /*  Preloader */
 /* --------- */
@@ -144,7 +144,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: var(--purple-text-color) !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -241,7 +241,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: var(--purple-text-color);
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -300,10 +300,6 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
-  /* text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
-    0 0 0.125em hsla(320, 100%, 60%, 0.5),
-    -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
-    0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25); */
 }
 
 .home-section {
@@ -371,10 +367,10 @@ button:focus {
   max-width: 40%;
 }
 .about-me {
-  text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+  /* text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
     0 0 0.125em hsla(320, 100%, 60%, 0.5),
     -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
-    0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25);
+    0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25); */
 }
 /* @media (max-width: 767px) {
   .myAvtar {
@@ -460,7 +456,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #7843E6 !important;
 }
 
 /* --------- */
@@ -525,7 +521,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 3px 3px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -533,9 +529,9 @@ button:focus {
   height: 100% !important;
 }
 .project-card-view:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.01) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px #7843E6 !important;
 }
 
 .blog-card {
@@ -576,22 +572,20 @@ button:focus {
   /* max-height: 400px; */
   width: auto;
 }
-.card-img{
-  
-}
+
 .blog-img {
   padding: 0px !important;
   opacity: 0.8 !important;
   border-radius: 0px !important;
 }
 
-.btn-primary {
+.btn-primary:hover {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: var(--purple-text-color) !important;
+  border-color: var(--purple-text-color) !important;
 }
 
-.btn-primary:hover {
+.btn-primary {
   color: #fff !important;
   background-color: #6d20c5d7 !important;
   border-color: #6d20c5d7 !important;
@@ -609,10 +603,10 @@ button:focus {
 .project-heading {
   color: white !important;
   /* font-size: 2.6em; */
-  text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+  /* text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
     0 0 0.1125em hsla(320, 100%, 60%, 0.5),
     -0.1125em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
-    0.1125em 0.125em 0.125em hsla(200, 100%, 60%, 0.25);
+    0.1125em 0.125em 0.125em hsla(200, 100%, 60%, 0.25); */
   padding-top: 10px !important;
 }
 
