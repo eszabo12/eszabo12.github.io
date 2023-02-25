@@ -12,7 +12,7 @@ import vex from "../../Assets/vex_robot.gif";
 import logo from "../../Assets/logo.png"
 import stream from "../../Assets/Projects/stream.png"
 import Tilt from "react-parallax-tilt";
-
+import traffic from "../../Assets/Projects/traffic.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -44,36 +44,29 @@ function Projects() {
               isBlog={false}
               title="VR Therapy for Alzheimer's"
               description="Developed an app for Oculus Quest to converse with an avatar, save stories, summarize, and generate images"
-               ghLink="https://github.com/eszabo12/VR_Alzheimer-s_Therapy"
+              gh={true}
+              ghLink="https://github.com/eszabo12/VR_Alzheimer-s_Therapy"
               skills="C#, Unity, OpenAI API"
                           />
           </Col>
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={logo}
-              isBlog={false}
-              title="Multi-Headed Encoder-Decoder Model"
-              description="Implemented an Encoder-Decoder model that takes in ALFRED instructions for an entire episode and predicts the sequence of corresponding, high-level actions and target objects"
-              skills="matplotlib, torch, sklearn, numpy"
-              ghLink="https://github.com/eszabo12/CSCI499_NaturalLanguageforInteractiveAI/tree/main/hw3"
-              // demoLink="/"      <--------Please include a demo link here 
-            />
-          </Col> */}
+         
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={vex}
               isBlog={false}
+              gh={true}
               title="Autonomous Robot"
               description="Programmed vision-based autonomous scoring using an optical sensor to place rings on the goals’ branches. Created data frame to capture RGB-D images and perform custom object recognition"
               skills="Python, YOLO5V, Roboflow, C/C++"
-              ghLink="/projects"
-              demoLink="/"
+              ghLink="https://github.com/uscvex/RobotCode/tree/master/TowerTakeover"
+              // demoLink="/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pyribs}
               isBlog={false}
+              gh={true}
               title="PyRibs"
               description="Main contributor to PyRibs, an open-source Python library for exploring the latent space of machine learning models. Used by researchers globally"
               ghLink="https://github.com/icaros-usc/pyribs/graphs/contributors"
@@ -85,6 +78,7 @@ function Projects() {
             <ProjectCard
               imgPath={terrortops}
               isBlog={false}
+              gh={false}
               title="Terrortops - BattleBots"
               description="Performed strength testing and assembled completely hand-crafted Battlebots robot. Competed in BattleBots World Championship VII as Alternate, rarely granted to non-experienced teams"
               // ghLink="/projects"
@@ -97,6 +91,7 @@ function Projects() {
             <ProjectCard
               imgPath={stream}
               isBlog={false}
+              gh={true}
               title="Twitch Chat Sentiment Analysis"
               description="Developed for HackSC a chrome extension that scrapes Twitch chat data and visualizes sentiment in real time"
               ghLink="https://github.com/likhity/twitch-stream-chat-analyzer"
@@ -108,6 +103,7 @@ function Projects() {
             <ProjectCard
               imgPath={pipeline}
               isBlog={false}
+              gh={true}
               title="Image Capturing Pipeline"
               description="First open-source 3D image capturing pipeline for machine learning on Intel Realsense. Used by researchers ISAE-Supaero for ROBOTIS OpenManipulator computer vision project"
               skills="C/C++, Make, Boost, librealsense2"
@@ -118,14 +114,14 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={logo}
+              imgPath={traffic}
+              gh={true}
               isBlog={false}
               title="Computer Vision Projects"
               description="Detected common street signs using Haar Cascade classifiers with 96% accuracy in Python, etc."
-              skills=""
-              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              skills="keras, tensorflow, opencv, pillow, sklearn"
+              ghLink="https://github.com/eszabo12/machine_learning_projects/tree/main/camera_stuff"
               // demoLink="/"      <--------Please include a demo link here 
-              skills=""
             />
           </Col>
 
@@ -133,6 +129,7 @@ function Projects() {
             <ProjectCard
               imgPath={logo}
               isBlog={false}
+              gh={true}
               title="Mobile iOS Bird-esque Application"
               description="An iOS app that displays objects for rental with realtime Firebase database queries and Stripe checkout screen"
               ghLink="https://github.com/eszabo12/Mobile_iOS_Bird-esque_Application"
@@ -145,6 +142,7 @@ function Projects() {
             <ProjectCard
               imgPath={logo}
               isBlog={false}
+              gh={false}
               title="Smart Mirror"
               description="Designed a smart mirror from the ground up that sends weather and news data via a Raspberry Pi"
               skills="Raspberry Pi, Python, Embedded Systems, Woodworking"
@@ -152,8 +150,18 @@ function Projects() {
               // demoLink="/"      <--------Please include a demo link here 
             />
           </Col>
-          
-        
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={logo}
+              isBlog={false}
+              gh={true}
+              title="Multi-Headed Encoder-Decoder Model"
+              description="Implemented an Encoder-Decoder model that takes in ALFRED instructions for an entire episode and predicts the sequence of corresponding, high-level actions and target objects"
+              skills="matplotlib, torch, sklearn, numpy"
+              ghLink="https://github.com/eszabo12/CSCI499_NaturalLanguageforInteractiveAI/tree/main/hw3"
+              // demoLink="/"      <--------Please include a demo link here 
+            />
+          </Col>        
 
         </Row>
       </Container>

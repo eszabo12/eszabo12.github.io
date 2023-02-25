@@ -1,18 +1,17 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-
+import styles from "../../style.css"
 function Type() {
   return (
     <Typewriter
       options={{
         strings: [
-          "Software Engineer",
-          "Bug Fixer",
-          "Stackoverflow Searcher",
+          "Software Engineer"
         ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
+        fontSize: 50,
       }}
     />
   );

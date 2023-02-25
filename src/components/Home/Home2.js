@@ -49,32 +49,30 @@ My interests are building applications to increase efficiency of human life, and
                 <b className="purple">Machine Learning & Perception</b> and
                 also in{" "}
                 <b className="purple">
-                  Backend Systems, IoT,
+                  Backend Systems</b>{" "}and{" "}<b className="purple">IoT.
                 </b>
-                {" "}but always{" "}
-                <b className="purple">Whatever Fits.</b>
+                {/* {" "}but always{" "}
+                <b className="purple">Whatever Fits.</b> */}
               <br />
-              <br />I've gained fluency in
-                <b className="purple"> Python</b>{" "}and{" "}<b className="purple"> C++</b>, and familiarity with
+              <br />I've gained familiarity with
+                <b className="purple"> Python,</b>{" "}<b className="purple"> C++,</b>
                 <b className="purple"> Javascript,</b>
                 <b className="purple"> Swift,</b>
                 <b className="purple"> C#,</b>{" "}and{" "}
-                <b className="purple"> SQL</b>.
+                <b className="purple"> SQL</b>, but everything is easy once you've used <b className="purple">C</b>.
               <br /> 
               <br />
               In my free time, I create projects you can check out <a href="/project">here</a>.
-              I've built a <a href="url">VR App,</a> {" "}
+              I've built a VR App, Web Extension, and Smart Mirror.
+              {/* <a href="url">VR App,</a> {" "}
               <a href="url">Web Extension,</a> {" and "}
-              <a href="url">Smart Mirror,</a>.
+              <a href="url">Smart Mirror,</a>. */}
             </p>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            {/* <p>
-              Feel free to connect with me
-            </p> */}
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

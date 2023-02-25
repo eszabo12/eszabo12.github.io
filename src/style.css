@@ -198,7 +198,7 @@ button:focus {
   }
 }
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  /* color: rgb(250, 250, 250) !important; */
 }
 
 .logo {
@@ -207,7 +207,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  /* color: white !important; */
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -241,7 +241,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: var(--purple-text-color);
+  background: #181a27;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -350,7 +350,11 @@ button:focus {
   color: #7843E6 !important;
 }
 
-@media (max-width: 700px) {
+.typeWriterText {
+  font-size: 2.4em;
+}
+
+/* @media (max-width: 700px) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
@@ -359,7 +363,7 @@ button:focus {
   .Typewriter__cursor {
     display: none !important;
   }
-}
+} */
 
 .myAvtar {
   /* justify-content: center !important; */
