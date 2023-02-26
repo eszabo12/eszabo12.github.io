@@ -19,9 +19,9 @@ function Projects() {
       <Particle />
       <Container>
         <Tilt>
-        <h1 className="project-heading">
-          My <strong className="purple">Projects </strong>
-        </h1>
+        <h1 style={{ fontSize: "2em", paddingBottom: 30 }} className="about-me">
+               <span className="purple">MY PROJECTS </span>
+            </h1>
         </Tilt>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on (that I can show).

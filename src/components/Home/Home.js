@@ -33,7 +33,7 @@ function Home() {
                 <img src={name} style={{maxWidth: 400}}></img></h1>
             </Row>
             <Row>
-              <div style={{ textAlign: "center", position: "relative", paddingLeft: 50 }}>
+              <div style={{ textAlign: "center", position: "relative", paddingLeft: 50 }} className="Typewriter__wrapper">
                 <Type />
               </div>
             </Row>
