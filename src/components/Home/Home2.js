@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineMail
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 /*
@@ -72,7 +73,8 @@ My interests are building applications to increase efficiency of human life, and
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <div className="connect-with-me">
+            <r>CONNECT WITH ME</r> </div>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -94,6 +96,17 @@ My interests are building applications to increase efficiency of human life, and
                   <FaLinkedinIn />
                 </a>
               </li>
+              <li className="social-icons">
+              <a
+                href="mailto:eszabo@usc.edu"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="icon-colour  home-social-icons"
+
+              >
+                <AiOutlineMail />
+              </a>
+            </li>
             </ul>
           </Col>
         </Row>

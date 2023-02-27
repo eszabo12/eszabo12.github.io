@@ -6,7 +6,7 @@ import pdf from "../../Assets/Resume/Elle_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import resumeLink from "../../Assets/Resume/Elle_Resume_CVML.pdf"
+import resumeLink from "../../Assets/Resume/Elle_Resume.pdf"
 import ml from "../../Assets/Resume/Elle_Resume_CVML.pdf"
 import robotics from "../../Assets/Resume/Elle_Resume_Robotics.pdf"
 import webdev from "../../Assets/Resume/Elle_Resume_Webdev.pdf"
@@ -43,7 +43,7 @@ function Resume() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             target="_blank"
@@ -77,7 +77,7 @@ function Resume() {
             <AiOutlineDownload />
             &nbsp;Download Resume
           </Button>
-        </Row>
+        </Row> */}
 
         <Row className="resume">
           <Document file={link} className="d-flex justify-content-center" id="docimage">

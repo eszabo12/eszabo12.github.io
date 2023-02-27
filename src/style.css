@@ -331,7 +331,7 @@ button:focus {
 
 .heading {
   font-size: 2.4em !important;
-  /* padding-left: 50px !important; */
+  padding-left: 50px !important;
   text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
     0 0 0.125em hsla(320, 100%, 60%, 0.5),
     -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
@@ -340,7 +340,7 @@ button:focus {
 
 .heading-name {
   font-size: 2.5em !important;
-  /* padding-left: 45px !important; */
+  padding-left: 45px !important;
   text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
   0 0 0.125em hsla(320, 100%, 60%, 0.5),
   -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
@@ -404,6 +404,10 @@ button:focus {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+}
+
+.connect-with-me{
+  font-size: 2em;
 }
 
 .home-about-social {
