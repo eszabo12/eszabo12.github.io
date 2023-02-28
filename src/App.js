@@ -8,8 +8,6 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
-import DotRing from "./components/DotRing/DotRing"
-import { MouseContext } from "./components/DotRing/mouse-context"
 import {
   BrowserRouter as Router,
   Route,
@@ -23,7 +21,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [load, upadateLoad] = useState(true);
-  const { cursorType, cursorChangeHandler } = useContext(MouseContext);
 
   useEffect(() => {
     const timer = setTimeout(() => {
