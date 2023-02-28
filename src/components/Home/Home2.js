@@ -25,16 +25,16 @@ function Home2() {
       <Container>
         <Row>
         <Col md={4} className="myAvtar">
-            <Tilt>
+            {/* <Tilt> */}
               <img src={myImg} className="img-fluid" alt="purp_avatar" style={{paddingRight: 40, maxHeight: "900px" }}/>
-            </Tilt>
+            {/* </Tilt> */}
           </Col>
           <Col md={8} className="home-about-description">
-            <Tilt >
+            {/* <Tilt > */}
             <h1 style={{ fontSize: "2.6em" }} className="about-me">
               ABOUT <span className="purple"> ME </span>
             </h1>
-            </Tilt>
+            {/* </Tilt> */}
             <p className="home-about-body">
              I'm a senior at <a href="https://viterbischool.usc.edu/">USC</a> studying Computer Science.
              <br />
