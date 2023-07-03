@@ -74,7 +74,7 @@ function Projects() {
               skills="Python, JAX, numba, numpy, OpenAI Gym"
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={terrortops}
               isBlog={false}
@@ -86,7 +86,7 @@ function Projects() {
               skills="drilling, tapping, assembling, painting, wiring, testing"
             
             />
-          </Col>
+          </Col> */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={stream}
