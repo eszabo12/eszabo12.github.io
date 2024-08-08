@@ -20,7 +20,7 @@
     "react-parallax-tilt": "^1.7.42",
     "react-pdf": "^9.1.0",
     "react-router-dom": "^6.8.1",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-sparkle": "^2.0.0",
     "react-sparkles": "^1.0.0",
     "react-tsparticles": "^1.42.2",
@@ -56,6 +56,7 @@
   "devDependencies": {
     "@eslint/js": "^9.8.0",
     "eslint": "^9.8.0",
+    "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-react": "^7.35.0",
     "gh-pages": "^5.0.0",
     "globals": "^15.9.0"
